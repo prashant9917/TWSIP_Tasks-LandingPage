@@ -1,0 +1,32 @@
+.mainEvants{
+width: 100%;
+/* border: 1px solid black; */
+flex-wrap: grid;
+grid-template-columns: auto auto auto;
+}
+.mainEvants img{
+    width: 218px;
+    margin-top:20px;
+}
+@media(max-width:450px){
+    .mainEvants{
+        width: 100%;
+    }
+    .mainEvants h2{
+        width: 50%;
+        text-align: center;
+        width: 200px;
+        font-size: 20px;
+    }
+    .mainEvants img{
+    width: 49%;
+    /* height: 200px; */
+    }
+}
+.dream11 img{
+    width: 99.8%;
+    height: 400px;
+    margin-top: 20px;
+    
+    /* padding: 20px; */
+}
